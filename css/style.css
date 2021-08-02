@@ -402,18 +402,18 @@ button {
 /*Custom*/
 /*Banner*/
 .banner {
-    width: 70%;
+    width: 100%;
     min-height: 1000px;
     background-image: url(../image/BeykozPokerBG.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: cover;
     padding: 0;
-    opacity: .9;
+    opacity: 1;
 }
 /*overlay color*/
 .logo img {
-    margin: 120px 0 70px 0;
+    margin: 50px 0 150px 0;
 }
 
 .logo img {
