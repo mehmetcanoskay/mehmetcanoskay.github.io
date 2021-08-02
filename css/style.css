@@ -397,16 +397,16 @@ template {
   }
   /*Custom*/
     /*Banner*/
-    .banner {
-      width: 100%;
-      min-height: 1000px;
-      background-image: url(../image/banner-main-1.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      padding: 0;
-      opacity: .9;
-    }
+.banner {
+    width: 100%;
+    min-height: 1000px;
+    background-image: url(../image/BeykozPokerBG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    opacity: .9;
+}
     /*overlay color*/    
     .logo img {
       margin: 120px 0 70px 0;
