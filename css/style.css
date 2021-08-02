@@ -402,7 +402,7 @@ button {
 /*Custom*/
 /*Banner*/
 .banner {
-    width: 100%;
+    width: 70%;
     min-height: 1000px;
     background-image: url(../image/BeykozPokerBG.png);
     background-repeat: no-repeat;
