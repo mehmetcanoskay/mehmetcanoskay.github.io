@@ -397,16 +397,16 @@ template {
   }
   /*Custom*/
     /*Banner*/
-    .banner {
-      width: 100%;
-      min-height: 1000px;
-      background-image: url(../image/banner-main-1.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      padding: 0;
-      opacity: .9;
-    }
+.banner {
+    width: 100%;
+    min-height: 1000px;
+    background-image: url(../image/BeykozPokerBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    opacity: .9;
+}
     /*overlay color*/    
     .logo img {
       margin: 120px 0 70px 0;
@@ -751,46 +751,7 @@ template {
       max-width: 322px;
     }
     }
-  	/*Why us*/
-  	.chose {
-  		padding-top: 100px;
-  	}
-  	.chose .iphones-5s {
-  		margin-top: 150px;
-  	}
-  	.chose-detail {
-  		margin-top: 60px;
-  	}
-  	.chose-detail h2 {
-  		font-family: Dosis-bold;
-  		font-size: 44px;
-  		line-height: 26px;
-  	}
-  	.chose-detail hr {
-  		margin: 25px 0px 30px 0px;
-  		width: 117px;
-  		height: 2px;
-  		background-color: #53c5d5;
-  	}
-  	.chose-detail .desc {
-  		font-family: Dosis Regular;
-  		font-size: 22px;
-  		line-height: 35px;
-  		margin-bottom: 70px;
-  	}
-  	.chose-detail img {
-  		margin-right: 15px;
-  	}
-    .chose-detail i {
-      width: 19px;
-      color: #00c6d7;
-      margin-right: 15px;
-    }
-    @media (max-width: 992px) {
-      .iphones-5s  {
-          text-align: center;
-      }
-    }
+  	
   	/*Screenshot*/
   	.screenshot {
     		padding: 160px 0;
@@ -1007,102 +968,7 @@ template {
         border-bottom: 30px solid transparent;
       }
     }
-    /*Team*/
-    .team-section {
-        padding: 160px 0px;
-    }
-    .detail-team {
-        text-align: center;
-    }
-    .detail-team h2 {
-        font-family: Dosis-bold;
-        font-size: 44px;
-        line-height: 26px;
-    }
-    .detail-team hr {
-        width: 117px;
-        height: 2px;
-        margin: 27px auto;
-        background-color: #53c5d5;
-    }
-    .detail-team p {
-        font-family: Dosis Regular;
-        font-size: 22px;
-        line-height: 35px;
-        width: 50%;
-        margin: 0 auto;
-    }
-    .team-members {
-        margin-top: 80px;
-        text-align: center;
-    }
-    .team-members img {
-        border-radius: 50%!important;
-    }
-    .team-hover {
-        max-width: 270px;
-        max-height: 270px;     
-        padding: 0;
-        position: relative;
-        border-radius: 50%;
-        overflow: hidden;
-        margin:auto;
-    }
-    .team-hover .loop-hover {
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        position: absolute;
-        background: transparent;
-        border-radius: 50%;
-        border: 35px solid #000000;
-        opacity:0;
-        -webkit-transition: opacity .5s ease-in-out;
-        -moz-transition: opacity .5s ease-in-out;
-        -o-transition: opacity .5s ease-in-out;
-        transition: opacity .5s ease-in-out;
-    }
-    .team-hover .loop-hover:hover {
-        opacity: 1;
-    }
-    .loop-hover img {
-        top: 40%;
-        left: 40%;
-        position: absolute;
-    }
-    .team-hover:hover .loop-hover {
-        top: 0;
-        -webkit-box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, .75);
-        box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, .75);
-        cursor: pointer;
-    }
-    .team-members h3 {
-        margin-top: 25px;
-        font-family: Dosis-bold;
-        font-size: 25px;
-        line-height: 26px;
-        color:#262626;
-    }
-    .team-members .team-role {
-        font-family: Dosis-bold;
-        font-size: 15px;
-        line-height: 26px;
-        color:#666666;
-    }
-    .team-members .team-desc {
-        width: 94%;
-        margin: 0 auto;
-    }
-    .icon-team i {
-        font-size: 18px;
-        margin: 25px 6px;
-        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    }
-    .icon-team i:hover {
-        color:#53c5d5;
-        cursor: pointer;
-    }
+    
     /*Reviwes*/
     .review-sec {
         background-color: #ecf0f1;
@@ -1193,81 +1059,7 @@ template {
           width: 100%;
         }
     } 
-    /*Partners*/
-    .partners-sec {
-        background-color: #d65469;
-    }
-    .logo-partner {
-        margin: 37px 0;
-        text-align: center;
-    }
-    .logo-partner img {
-        margin: 5px 0;
-    } 
-    /*Plan*/
-    .plan-sec {
-        background-image: url(../image/plan-backgr.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        padding: 160px 0px 100px 0px;
-    }
-    .detail-plan {
-        text-align: center;
-        color: #fff;
-    }
-    .detail-plan h2 {
-       font-family: Dosis-bold;
-       font-size: 44px;
-       line-height: 26px;
-    }
-    .detail-plan hr {
-        width: 117px;
-        height: 2px;
-        margin: 27px auto;
-        background-color: #fff;
-    }
-    .detail-plan p {
-        font-size: 22px;
-        line-height: 35px;
-        width: 50%;
-        margin: 0 auto;
-    }
-    .offert-plan {
-        margin: 100px auto 30px auto;
-    } 
-    .plans-col {
-        max-width: 370px;
-        width: 100%;
-        margin: 30px 15px;
-    } 
-    .plans-col i {
-        width: 24px;
-        margin: 0 12px;
-        color: #00c6d7;
-        font-size: 22px;
-    }
-    .offert-plan h2 {
-        font-family: Dosis-bold;
-        font-size: 40px;
-        line-height: 26px;
-        text-align: center;
-        color: #fff;
-        margin-bottom: 0px;
-    }
-    .offert-plan button {
-        background-color: #fff;
-        border: 2px solid #53c5d5;
-        border-radius: 50px;
-        color: #53c5d5;
-        font-family: Dosis-bold;
-        font-size: 16px;
-        line-height: 26px;
-        text-transform: uppercase;
-        padding: 17px 42px;
-        margin-top: 40px;
-        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    }
+    
     /*Standart*/
     .offert-plan .standart-title {
         background-color: #53c5d5;
