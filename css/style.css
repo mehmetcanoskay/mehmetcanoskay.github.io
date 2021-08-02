@@ -398,7 +398,7 @@ template {
   /*Custom*/
     /*Banner*/
 .banner {
-    width: 70%;
+    width: 100%;
     min-height: 1000px;
     background-image: url(../image/BeykozPokerBG.png);
     background-repeat: no-repeat;
@@ -423,7 +423,7 @@ template {
       height: auto;
     }
     .content {
-      padding-left: 55px;
+      padding-left: 300px;
     }
     .content h1 {
       font-family: Dosis-bold;
