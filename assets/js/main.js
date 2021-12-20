@@ -204,15 +204,15 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
+      let portfolioContainer = select('.FoldingTent-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
+          itemSelector: '.FoldingTent-item'
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+        let portfolioFilters = select('#FoldingTent-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+        on('click', '#FoldingTent-flters li', function(e) {
         e.preventDefault();
         portfolioFilters.forEach(function(el) {
           el.classList.remove('filter-active');
@@ -229,6 +229,89 @@
     }
 
   });
+
+    window.addEventListener('load', () => {
+        let portfolioContainer = select('.Umbrellas-container');
+        if (portfolioContainer) {
+            let portfolioIsotope = new Isotope(portfolioContainer, {
+                itemSelector: '.Umbrellas-item'
+            });
+
+            let portfolioFilters = select('#Umbrellas-flters li', true);
+
+            on('click', '#Umbrellas-flters li', function (e) {
+                e.preventDefault();
+                portfolioFilters.forEach(function (el) {
+                    el.classList.remove('filter-active');
+                });
+                this.classList.add('filter-active');
+
+                portfolioIsotope.arrange({
+                    filter: this.getAttribute('data-filter')
+                });
+                portfolioIsotope.on('arrangeComplete', function () {
+                    AOS.refresh()
+                });
+            }, true);
+        }
+
+    });
+
+    window.addEventListener('load', () => {
+        let portfolioContainer = select('.AdvertSys-container');
+        if (portfolioContainer) {
+            let portfolioIsotope = new Isotope(portfolioContainer, {
+                itemSelector: '.AdvertSys-item'
+            });
+
+            let portfolioFilters = select('#AdvertSys-flters li', true);
+
+            on('click', '#AdvertSys-flters li', function (e) {
+                e.preventDefault();
+                portfolioFilters.forEach(function (el) {
+                    el.classList.remove('filter-active');
+                });
+                this.classList.add('filter-active');
+
+                portfolioIsotope.arrange({
+                    filter: this.getAttribute('data-filter')
+                });
+                portfolioIsotope.on('arrangeComplete', function () {
+                    AOS.refresh()
+                });
+            }, true);
+        }
+
+    });
+
+    window.addEventListener('load', () => {
+        let portfolioContainer = select('.Tables-container');
+        if (portfolioContainer) {
+            let portfolioIsotope = new Isotope(portfolioContainer, {
+                itemSelector: '.Tables-item'
+            });
+
+            let portfolioFilters = select('#Tables-flters li', true);
+
+            on('click', '#Tables-flters li', function (e) {
+                e.preventDefault();
+                portfolioFilters.forEach(function (el) {
+                    el.classList.remove('filter-active');
+                });
+                this.classList.add('filter-active');
+
+                portfolioIsotope.arrange({
+                    filter: this.getAttribute('data-filter')
+                });
+                portfolioIsotope.on('arrangeComplete', function () {
+                    AOS.refresh()
+                });
+            }, true);
+        }
+
+    });
+
+
 
   /**
    * Initiate portfolio lightbox 

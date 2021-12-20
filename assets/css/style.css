@@ -393,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.png") top center;
   background-size: cover;
   position: relative;
 }
@@ -733,39 +733,154 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
-  margin-bottom: 30px;
+
+
+.portfolio .FoldingTent-item {
+    margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 auto 20px auto;
-  list-style: none;
-  text-align: center;
+.portfolio #FoldingTent-flters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
 }
 
-.portfolio #portfolio-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 8px 15px 10px 15px;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #444444;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-  border-radius: 3px;
+    .portfolio #FoldingTent-flters li {
+        cursor: pointer;
+        display: inline-block;
+        padding: 8px 15px 10px 15px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        text-transform: uppercase;
+        color: #444444;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+        border-radius: 3px;
+    }
+
+        .portfolio #FoldingTent-flters li:hover, .portfolio #FoldingTent-flters li.filter-active {
+            color: #151515;
+            background: #ffc451;
+        }
+
+        .portfolio #FoldingTent-flters li:last-child {
+            margin-right: 0;
+        }
+
+
+
+.portfolio .Umbrellas-item {
+    margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #151515;
-  background: #ffc451;
+.portfolio #Umbrellas-flters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
 }
 
-.portfolio #portfolio-flters li:last-child {
-  margin-right: 0;
+    .portfolio #Umbrellas-flters li {
+        cursor: pointer;
+        display: inline-block;
+        padding: 8px 15px 10px 15px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        text-transform: uppercase;
+        color: #444444;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+        border-radius: 3px;
+    }
+
+        .portfolio #Umbrellas-flters li:hover, .portfolio #Umbrellas-flters li.filter-active {
+            color: #151515;
+            background: #ffc451;
+        }
+
+        .portfolio #Umbrellas-flters li:last-child {
+            margin-right: 0;
+        }
+
+
+
+
+
+.portfolio .AdvertSys-item {
+    margin-bottom: 30px;
 }
+
+.portfolio #AdvertSys-flters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+}
+
+    .portfolio #AdvertSys-flters li {
+        cursor: pointer;
+        display: inline-block;
+        padding: 8px 15px 10px 15px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        text-transform: uppercase;
+        color: #444444;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+        border-radius: 3px;
+    }
+
+        .portfolio #AdvertSys-flters li:hover, .portfolio #AdvertSys-flters li.filter-active {
+            color: #151515;
+            background: #ffc451;
+        }
+
+        .portfolio #AdvertSys-flters li:last-child {
+            margin-right: 0;
+        }
+
+
+.portfolio .Tables-item {
+    margin-bottom: 30px;
+}
+
+.portfolio #Tables-flters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+}
+
+    .portfolio #Tables-flters li {
+        cursor: pointer;
+        display: inline-block;
+        padding: 8px 15px 10px 15px;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        text-transform: uppercase;
+        color: #444444;
+        margin-bottom: 5px;
+        transition: all 0.3s ease-in-out;
+        border-radius: 3px;
+    }
+
+        .portfolio #Tablest-flters li:hover, .portfolio #Tables-flters li.filter-active {
+            color: #151515;
+            background: #ffc451;
+        }
+
+        .portfolio #Tables-flters li:last-child {
+            margin-right: 0;
+        }
+
+
+
+
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
